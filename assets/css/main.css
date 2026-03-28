@@ -2606,7 +2606,7 @@ input[type="radio"]+label:before {
 
 .image.main {
 	display: block;
-	margin: 3rem 0;
+	margin: 1.25rem 0 0 0;
 	width: 100%;
 }
 
@@ -3042,14 +3042,14 @@ a.arrow:before {
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
-	margin: -1.25rem 0 0 -1.25rem;
+	margin: 0rem 0 0 -1.25rem;
 	width: calc(100% + 1.25rem);
 }
 
 .gallery a {
 	border-bottom: 0;
 	display: block;
-	margin: 1.25rem 0 0 1.25rem;
+	margin: 0rem 0 1.25rem 1.25rem;
 	outline: 0;
 	position: relative;
 	width: calc(50% - 1.25rem);
@@ -3066,6 +3066,7 @@ a.arrow:before {
 
 .gallery a.landscape {
 	width: 100%;
+	/* margin: 0rem 0 1.25rem 1.25rem; */
 }
 
 .gallery a.landscape img {
